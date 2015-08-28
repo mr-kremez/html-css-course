@@ -1,0 +1,19 @@
+.font {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.home-page {
+    width: 100%;
+}
+
+.home-page .top-container {
+    background: url("../../images/background_image_1.jpg") no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+@media (max-width: 767px) {
+    .home-page .top-container {
+        background: #4d4d4d;
+    }
+}

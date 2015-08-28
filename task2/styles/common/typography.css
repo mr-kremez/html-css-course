@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'LucidaSans';
+    src: url('../../fonts/Lucida Sans Italic.ttf');
+}
+
+@font-face {
+    font-family: 'LaoUI';
+    src: url('../../fonts/LaoUI.ttf');
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.75em;
+    color: #000000;
+}

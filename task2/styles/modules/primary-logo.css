@@ -1,0 +1,53 @@
+.primary-logo {
+    white-space: nowrap;
+    font-family: LucidaSans, sans-serif;
+    font-size: 41px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+@media (max-width: 991px) {
+    .primary-logo {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .primary-logo {
+        font-size: 10px;
+    }
+}
+
+.primary-logo .primary-logo__image {
+    vertical-align: middle;
+}
+
+@media (max-width: 767px) {
+    .primary-logo .primary-logo__image {
+        width: 20px;
+    }
+}
+
+.primary-logo .primary-logo__primary-text {
+    vertical-align: middle;
+}
+
+.primary-logo .primary-logo__secondary-text {
+    font-family: LaoUI, sans-serif;
+    vertical-align: bottom;
+    font-size: 13px;
+}
+
+@media (max-width: 991px) {
+    .primary-logo .primary-logo__secondary-text {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 767px) {
+    .primary-logo .primary-logo__secondary-text {
+        display: none;
+    }
+}
