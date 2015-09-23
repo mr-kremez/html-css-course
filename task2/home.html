@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="styles/common/reset.css" type="text/css" />
     <link rel="stylesheet" href="styles/common/typography.css" type="text/css" />
     <link rel="stylesheet" href="styles/common/icomoon.css" type="text/css" />
+    <link rel="stylesheet" href="styles/common/common.css" type="text/css" />
+    <link rel="stylesheet" href="styles/common/media.css" type="text/css" />
 
     <link rel="stylesheet" href="styles/layout/layout.css" type="text/css" />
 
@@ -18,9 +20,20 @@
     <link rel="stylesheet" href="styles/modules/header.css" type="text/css" />
     <link rel="stylesheet" href="styles/modules/primary-logo.css" type="text/css" />
     <link rel="stylesheet" href="styles/modules/primary-navigation.css" type="text/css" />
+    <link rel="stylesheet" href="styles/modules/jumbotron.css" type="text/css" />
+    <link rel="stylesheet" href="styles/modules/about-product.css" type="text/css" />
+    <link rel="stylesheet" href="styles/modules/info.css" type="text/css" />
+    <link rel="stylesheet" href="styles/modules/product-usage.css" type="text/css" />
+    <link rel="stylesheet" href="styles/modules/image-label.css" type="text/css" />
+    <link rel="stylesheet" href="styles/modules/footer.css" type="text/css" />
+    <link rel="stylesheet" href="styles/modules/tools.css" type="text/css" />
+    <link rel="stylesheet" href="styles/modules/media-tool.css" type="text/css" />
+    <link rel="stylesheet" href="styles/modules/social-tool.css" type="text/css" />
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Asap' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <div class="home-page">
@@ -39,7 +52,7 @@
 
                     <div class="header__navigation-menu-container">
                         <nav class="primary-navigation clear-fix">
-                            <ul class="primary-navigation__list clear-fix">
+                            <ul class="primary-navigation__list">
                                 <li class="primary-navigation__item">
                                     <a class="primary-navigation__link" href="#">
                                         <i class="icon-icon-about"></i>
@@ -63,10 +76,104 @@
                     </div>
                 </div>
             </header>
-            <div class="jumbotron">
-
+            <div class="jumbotron clear-fix">
+                <div class="jumbotron__inner-container">
+                    <div class="jumbotron__video-container">
+                        <img class="video-image" src="images/jumbotron_video_image.png" alt="video" />
+                    </div>
+                    <div class="jumbotron__titile-container">
+                        <h1 class="media-title media-title--primary">the cool</h1>
+                        <h1 class="media-title media-title--secondary">the minimal</h1>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="about-product-container clear-fix">
+            <ul class="about-product container">
+                <li class="about-product__item">
+                    <div class="about-product__image-container">
+                        <i class="icon-icon-design"></i>
+                    </div>
+                    <p class="about-product__text-container">better design</p>
+                </li>
+                <li class="about-product__item">
+                    <div class="about-product__image-container">
+                        <i class="icon-icon-customise"></i>
+                    </div>
+                    <p class="about-product__text-container">customise</p>
+                </li>
+                <li class="about-product__item">
+                    <div class="about-product__image-container">
+                        <i class="icon-icon-free"></i>
+                    </div>
+                    <p class="about-product__text-container">its free</p>
+                </li>
+            </ul>
+        </div>
+        <section class="tools">
+            <div class="container">
+                <h3 class="tools__header">lorem ipsum dolor sit amet</h3>
+                <div class="tools__tools-container clear-fix">
+                    <div class="media-tool">
+                        <div class="media-tool__text">
+                            Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor inci-didunt ut
+                            <div class="media-tool__plus">
+                                +
+                            </div>
+                        </div>
+                        <div class="media-tool__video">
+                            <img src="images/video-image-2.png" alt="video" class="media-tool__video-imgae" />
+                        </div>
+                    </div>
+                    <div class="social-tool">
+                        <i class="icon-icon-tw"></i>
+                        <div class="social-tool__number">
+                            22
+                        </div>
+                        <div class="social-tool__plus">
+                            +
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="info-container">
+            <div class="info">
+                <div class="info__title-container">
+                    <h3 class="secondary-title">lorem ipsum dolor sit amet</h3>
+                </div>
+                <div class="info__product-usage-container">
+                    <div class="product-usage container">
+                        <div class="product-usage__image-container">
+                            <div class="product-usage__image-label-container">
+                                <div class="image-label">
+                                    its 100% free
+                                </div>
+                            </div>
+                            <img src="images/devices.png" alt="devices" />
+                        </div>
+                        <div class="product-usage__list-container">
+                            <ul class="product-usage__list">
+                                <li class="product-usage__item">Sed ut perspiciatis unde omnis</li>
+                                <li class="product-usage__item">Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+                                <li class="product-usage__item">Sed ut perspiciatis unde omnis</li>
+                                <li class="product-usage__item">Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <div class="footer__image-container">
+                    <img src="images/logo.png" class="footer__image" alt="primary logo" />
+                </div>
+                <div class="footer__text-container">
+                    <span class="footer__text">TheYalow</span>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

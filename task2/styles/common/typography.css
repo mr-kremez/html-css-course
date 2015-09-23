@@ -14,3 +14,48 @@ body {
     line-height: 1.75em;
     color: #000000;
 }
+
+
+.media-title {
+    font-size: 63px;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-family: 'Asap', sans-serif;
+}
+
+@media (max-width: 991px) {
+    .media-title {
+        font-size: 48px;
+        line-height: 53px;
+    }
+}
+
+.media-title--primary {
+    color: #f5c506;
+}
+
+.media-title--secondary {
+    color: #ffffff;
+}
+
+.secondary-title {
+    font-size: 43px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #f5c506;
+    font-family: 'PT Sans', sans-serif;
+}
+
+@media (max-width: 991px) {
+    .secondary-title {
+        font-size: 33px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 767px) {
+    .secondary-title {
+        font-size: 19px;
+        line-height: 26px;
+    }
+}
