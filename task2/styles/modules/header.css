@@ -1,0 +1,40 @@
+.header {
+
+}
+
+.header .header__inner-container {
+    display: table;
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+    .header .header__inner-container {
+        width: 100%;
+    }
+}
+
+.header .header__logo-container {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 35px 50px 60px 0;
+}
+
+@media (max-width: 767px) {
+    .header .header__logo-container {
+        background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
+        padding: 0 5px 3px 10px;
+    }
+}
+
+@media (min-width: 767px) {
+    .header .header__navigation-menu-container {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+

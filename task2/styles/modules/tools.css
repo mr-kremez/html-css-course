@@ -1,0 +1,32 @@
+.tools {
+    background-image: url("../../images/background_image_2.jpg");
+    background-size: cover;
+    padding-bottom: 70px;
+}
+
+@media (max-width: 767px) {
+    .tools {
+        background-image: none;
+        padding-bottom: 0;
+    }
+}
+
+.tools .tools__header {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 37px;
+    padding: 30px 0;
+}
+
+@media (max-width: 991px) {
+    .tools .tools__header {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .tools .tools__header {
+        display: none;
+    }
+}
+

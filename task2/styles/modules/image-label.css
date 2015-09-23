@@ -1,0 +1,21 @@
+.image-label {
+    background: #f5c506;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .image-label {
+        height: 80px;
+        width: 80px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,39 @@
+.font {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.home-page {
+    width: 100%;
+}
+
+.home-page .top-container {
+    background: url("../../images/background_image_1.jpg") no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+@media (max-width: 767px) {
+    .home-page .top-container {
+        background: #4d4d4d;
+    }
+}
+
+.about-product-container {
+    -moz-box-shadow: 0 -1px 5px #000000;
+    -webkit-box-shadow: 0 -1px 5px #000000;
+    box-shadow: 0 -1px 5px #000000;
+    background: url("../../images/about_product_bg.png") no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 767px) {
+    .about-product-container {
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}
+
+.info-container {
+
+}

@@ -1,0 +1,19 @@
+.info {
+    background-image: url('../../images/background_image_3.jpg');
+    padding-bottom: 60px;
+}
+
+@media (max-width: 767px) {
+    .info {
+        padding-bottom: 30px;
+    }
+}
+
+.info .info__title-container {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.info .info__product-usage-container {
+    margin-top: 60px;
+}
